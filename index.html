@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup</title>
+
+    <script src="https://kit.fontawesome.com/57e26dffb3.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        background-color: #FFFFFF;
+    }
+
+    .top-div{
+        width: 60%;
+        height: 500px;
+        border-radius: 20px;
+        background-color: black;
+        padding: 10px;
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-columns: 0vh;
+        justify-items: center;
+        
+    }
+
+    .top-div-title{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+     
+
+        color:#ffffff;
+        margin-bottom: 0px;
+    }
+    .top-div p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .top-div-button{
+        width: 187px;
+        height: 56px;
+        background: #DD0000;
+        border-radius: 5px;
+        padding: 16px 25px;
+        border-radius:5px;
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .second-div{
+        width: 60%;
+        margin-top: 100px;
+
+        background-color: #FFFFFF;
+
+        display: grid;
+        grid-template-columns: 312px auto;
+        gap: 20px;
+        
+    }
+
+    .menu-div{
+        background-color: black;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+        display: grid;
+        justify-items: center;
+        row-gap: 20px;
+        height: 200px;
+
+
+    }
+
+    .second-div-button{
+       
+       
+        background: #ffffff;
+        border-radius: 5px;
+        padding: 16px 25px;
+        width: 200px;
+        border-radius:5px;
+        font-family: 'HelveticaNeue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+
+
+        color: #0a0909;
+    }
+
+    .blog-div{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+
+    }
+    .blog{
+        border: 1px solid #dbd7d7;
+        border-radius: 10px;
+    }
+    .blog img{
+        width: 100%;
+    }
+
+    .btn-article{
+        padding: 10px;
+    }
+    .btn-article button{
+        margin-bottom: 10px;
+        padding: 4px;
+        border:1px solid;
+        border-radius: 2px;
+        background-color: #FFFFFF;
+    }
+    .blog-icon{
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .footer{
+        background-color: black;
+        padding: 100px;
+        color:#FFFFFF;
+        text-align: center;
+    }
+    .footer hr{
+        border: .5px solid #dbd7d7;
+    }
+
+    .footer-menu{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+</style>
+<body>
+    <section class="container">
+        <div class="top-div">
+            <div style="margin-left: 20%;">
+                <br>
+                <br>
+                <h2 class="top-div-title">The Greatest show on the <br> earth</h2>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply 
+                    random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                </p>
+                <br>
+                <a class="top-div-button">Watch-live <i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div >
+                <img style="height: 100%;margin-top: 10px;" src="assets/player.png" alt="">
+
+            </div>
+            
+
+        </div>
+        
+    </section>
+
+    <section class="container">
+        <div class="second-div">
+            <div class="menu-div">
+                <a class="second-div-button">ghdhds</a>
+                <a class="second-div-button">ghdhds</a>
+                <a class="second-div-button">ghdhds</a>
+                
+            
+
+            </div>
+            <div class="blog-div">
+                <div class="blog">
+                    <img src="assets/Blog Image.png" alt="">
+                    <div class="btn-article">
+                        <button>Transfer</button>
+                        <article>Transfer Live: Chlesea in talks over Kimpenbe transfer</article>
+                        <div class="blog-icon">
+                            <span><i class="fa-solid fa-clock"></i> 10h</span>
+                            <span><i class="fa-solid fa-comment-dots"></i> 23</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog">
+                    <img src="assets/Blog Image.png" alt="">
+                    <div class="btn-article">
+                        <button>Transfer</button>
+                        <article>Transfer Live: Chlesea in talks over Kimpenbe transfer</article>
+                        <div class="blog-icon">
+                            <span><i class="fa-solid fa-clock"></i> 10h</span>
+                            <span><i class="fa-solid fa-comment-dots"></i> 23</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog">
+                    <img src="assets/Blog Image.png" alt="">
+                    <div class="btn-article">
+                        <button>Transfer</button>
+                        <article>Transfer Live: Chlesea in talks over Kimpenbe transfer</article>
+                        <div class="blog-icon">
+                            <span><i class="fa-solid fa-clock"></i> 10h</span>
+                            <span><i class="fa-solid fa-comment-dots"></i> 23</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog">
+                    <img src="assets/Blog Image.png" alt="">
+                    <div class="btn-article">
+                        <button>Transfer</button>
+                        <article>Transfer Live: Chlesea in talks over Kimpenbe transfer</article>
+                        <div class="blog-icon">
+                            <span><i class="fa-solid fa-clock"></i> 10h</span>
+                            <span><i class="fa-solid fa-comment-dots"></i> 23</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog">
+                    <img src="assets/Blog Image.png" alt="">
+                    <div class="btn-article">
+                        <button>Transfer</button>
+                        <article>Transfer Live: Chlesea in talks over Kimpenbe transfer</article>
+                        <div class="blog-icon">
+                            <span><i class="fa-solid fa-clock"></i> 10h</span>
+                            <span><i class="fa-solid fa-comment-dots"></i> 23</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog">
+                    <img src="assets/Blog Image.png" alt="">
+                    <div class="btn-article">
+                        <button>Transfer</button>
+                        <article>Transfer Live: Chlesea in talks over Kimpenbe transfer</article>
+                        <div class="blog-icon">
+                            <span><i class="fa-solid fa-clock"></i> 10h</span>
+                            <span><i class="fa-solid fa-comment-dots"></i> 23</span>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="blog">
+                    <img src="assets/Blog Image.png" alt="">
+                    <div class="btn-article">
+                        <button>Transfer</button>
+                        <article>Transfer Live: Chlesea in talks over Kimpenbe transfer</article>
+                        <div class="blog-icon">
+                            <span><i class="fa-solid fa-clock"></i> 10h</span>
+                            <span><i class="fa-solid fa-comment-dots"></i> 23</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <section>
+        <div class="footer">
+            <h1>Goal</h1>
+            <br>
+            <hr>
+            <div class="footer-menu"><a href="">hgdjds</a><a href="">hdsjds</a><a href="">hgdgjds</a><a href="">hdjhd</a><a href="">gdhgd</a><a href="">gdhdg</a></div>
+        </div>
+    </section>
+    
+</body>
+</html>
